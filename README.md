@@ -30,8 +30,23 @@ Experimental Steps
     'num_layers': 1,
     'weight_decay': 0.000987018067234512}
    
-3. 
-4. 
+3. Update `data_dir` (path to training/test data) and result saving paths (for Excel files and .pth weights) in the script to match your local environment.
 
+Run Experiments
+
+1. The experiments include 7 model variants:
+-Untrained ResNet
+-Pretrained ResNet
+-Untrained ResNet + Transformer
+-Pretrained ResNet + Transformer (proposed model)
+-Pretrained ResNet + LSTM
+-Simple CNN
+-Simple MLP
+
+2. Check Results
+-Training history (loss, accuracy per epoch) is saved in Excel files (e.g., `pretrained_resnet_transformer_history1.xlsx`).
+-Best model weights are saved as .pth files (e.g., `rate000.pth`).
+-A comprehensive comparison table (`ablation_study_results1.xlsx`) includes train/validation/test accuracy for all models.
+-Real-time training logs and final results are printed in the console. 
 
 
