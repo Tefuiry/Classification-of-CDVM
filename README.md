@@ -15,7 +15,7 @@ Code for PLOS ONE manuscript:*Classification of Current Density Density Vector M
 ---
 ## Comparison and ablation studies
 
-Experimental Steps
+### Experimental Steps
 
 1. Open the main script (recommended filename: `xgct.py`).
    
@@ -32,7 +32,7 @@ Experimental Steps
    
 3. Update `data_dir` (path to training/test data) and result saving paths (for Excel files and .pth weights) in the script to match your local environment.
 
-Run Experiments
+### Run Experiments
 
 1. The experiments include 7 model variants:
  - Untrained ResNet
@@ -51,17 +51,15 @@ Run Experiments
 
 ---
 ## Compatibility
- - Ubuntu 18.04.5 LTS / Windows 10 / macOS 10.15+
+ - Ubuntu 18.04.5 LTS
  - CUDA 11.3 (GPU support) / CPU
  - CUDNN 8.2.1
  - Python 3.8.10
  - numpy 1.21.6
  - torch 1.10.1
  - torchvision 0.11.2
- - pandas 1.3.5
- - scikit-learn 1.0.2
- - optuna 3.2.0
- - openpyxl 3.0.10
+
+
 
 
 
