@@ -13,7 +13,7 @@ Code for PLOS ONE manuscript:*Classification of Current Density Density Vector M
 3. Check results in generated Excel files and saved model weights (.pth files).
 
 ---
-## Comparison and Ablation Studies
+## Comparison and ablation studies
 
 Experimental Steps
 
@@ -47,6 +47,21 @@ Run Experiments
  - Training history (loss, accuracy per epoch) is saved in Excel files (e.g., `pretrained_resnet_transformer_history1.xlsx`).
  - Best model weights are saved as .pth files (e.g., `rate000.pth`).
  - A comprehensive comparison table (`ablation_study_results1.xlsx`) includes train/validation/test accuracy for all models.
- - Real-time training logs and final results are printed in the console. 
+ - Real-time training logs and final results are printed in the console.
+
+---
+## Compatibility
+ - Ubuntu 18.04.5 LTS / Windows 10 / macOS 10.15+
+ - CUDA 11.3 (GPU support) / CPU
+ - CUDNN 8.2.1
+ - Python 3.8.10
+ - numpy 1.21.6
+ - torch 1.10.1
+ - torchvision 0.11.2
+ - pandas 1.3.5
+ - scikit-learn 1.0.2
+ - optuna 3.2.0
+ - openpyxl 3.0.10
+
 
 
